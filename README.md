@@ -1,12 +1,10 @@
-# Dirk Rossmann GmbH Sales Forecast
+# Sales Forecast - Dirk Rossmann GmbH    
 ## Project's Goal
-Develop a data-based solution for forecasting the sales of a drugstore chain with over 1,100 stores
+Develop a Machine Learning solution for forecasting the sales of a drugstore chain with over 1,100 stores
 ## Methodology
 The solution was developed using the Cross Industry Standard Process for Data Mining (CRISP-DM)
 
-
-![image](https://user-images.githubusercontent.com/88887546/164997082-a4bc2626-f312-48bb-b4bf-ac6cb37ca667.png)
-
+  ![image](https://user-images.githubusercontent.com/88887546/164997082-a4bc2626-f312-48bb-b4bf-ac6cb37ca667.png)>
 
 
 ### 1. Business Understanding
@@ -70,7 +68,64 @@ The missing values presented significant percentages in some fields, being neces
 
 
   - Missing values Assumptions
-    -   Competition Distance:
-    
-        - Assumptions: Stores with no nearby competitors or no competitors
+
+    -   Competition Distance:    
+        - Stores with no nearby competitors or no competitors;
         - For these cases, I entered a distance of 200 thousand meters in the dataset, indicating to the model that the competitors are externally distant from this store, which would not happen if the option were for zero value.
+    
+    -   Competition Open Since Month:    
+        -  Stores without competitors;
+        - Inserted in this field the same month in which the sale was generated, the intention is to generate a zero value, when comparing the month of the sale with the month in which the competition was started.
+        
+     -   Competition Open Since Year:    
+          - Stores without competitors;
+          - Inserted in this field the same year in which the sale was generated, the intention is to generate a zero value, when we compare the year of sale with the year in which the competition was initiated. 
+
+     -   Promo Since Week:    
+          - Stores that did not join the promotion;
+          - Inserted in this field the same week in which the sale was generated, the intention is to generate a zero value, when comparing the sale week with the week in which the promotion started. 
+
+     -   Promo Since Year:    
+          - Stores that did not join the promotion;
+          - Inserted in this field the same year in which the sale was generated, the intention is to generate a zero value, when comparing the year of sale with the year in which the promotion started. 
+
+     -   Promo Interval:    
+          - From this feature, I derived the IS PROMO feature, indicating 0 = No Promotion 1 = Promotional Period and the MONTH_MAP, which contains the month the promotion occurs.
+
+##### 2.1.2 Descriptive Statistical
+Highlight in the target variable, zero sales and standard deviation indicating a non-linear behavior, probably the linear models will present low performance, and the positive Skew, concentrating sales in smaller values, characteristic behavior of a retailer.
+
+![image](https://user-images.githubusercontent.com/88887546/165001440-c0ce2b80-a197-4b8c-98ce-4625a25f58d4.png)
+
+![image](https://user-images.githubusercontent.com/88887546/165001413-e14ae1a6-b472-4453-9455-16d64350af89.png)
+
+##### 2.1.3 Feature Engineering
+Created Features: Year | month |  day | week | week-year 
+##### 2.1.4 Feature Engineering
+Excludes the following data for the next steps of CRISP-DM:
+
+  - sales equal and less than zero
+  - closed stores (open = 0)
+
+##### 2.1.5 Exploratory data Analysis
+After Feature Filtering, the target variable has a normal distribution with positive skew and sales behavior as shown in the charts below:
+
+![image](https://user-images.githubusercontent.com/88887546/165001258-ee794716-7947-4ee5-8e4a-6451e2cb0d57.png)
+
+![image](https://user-images.githubusercontent.com/88887546/165001262-62716bf4-e27e-4ab4-8fdd-49d8c05279b3.png)
+
+### 3.	Data Preparation
+I applied a Robust Scaler to the outliered features, as I will test linear models that are sensitive to outliers.
+
+For the other features Min Max Scaler was applied
+
+  - Robust Scaler
+    - Competition Distance
+    - Competition Time Month
+
+  - Min Max Scaler
+    - Promo Time Week
+    - Year
+
+
+
