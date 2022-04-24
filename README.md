@@ -1,8 +1,14 @@
-# Sales Forecast
+# Dirk Rossmann GmbH Sales Forecast
 ## Project's Goal
 Develop a data-based solution for forecasting the sales of a drugstore chain with over 1,100 stores
 ## Methodology
 The solution was developed using the Cross Industry Standard Process for Data Mining (CRISP-DM)
+
+
+![image](https://user-images.githubusercontent.com/88887546/164997082-a4bc2626-f312-48bb-b4bf-ac6cb37ca667.png)
+
+
+
 ### 1. Business Understanding
 Dirk Rossmann GmbH is one of the largest drugstore chains in Europe, present in 7 countries on this continent. Store sales are influenced by many factors, including promotions, competition, school and state holidays, seasonality and location.
 
@@ -37,3 +43,34 @@ Daily sales per store for the last 31 months were collected, resulting in a data
 |Promo 2 Since[Year]|describes the year when the store started participating in Promo2|
 |Promo Interval|describes the consecutive intervals Promo2 is started, naming the months the promotion is started anew. E.g. "Feb,May,Aug,Nov" means each round starts in February, May, August, November of any given year for that store|
 #### 2.1 Data Exploration Report
+##### 2.1.1 Missing Values
+
+The missing values presented significant percentages in some fields, being necessary to apply some assumptions, to recover a large volume of data.
+
+| Feature | % Missing Values |
+|---|---|
+|Store|0,0%|
+|Day of Week|0,0%|
+|Date|0,0%|
+|Sales|0,0%|
+|Customers|0,0%|
+|Open|0,0%|
+|Promo|0,0%|
+|State Holiday|0,0%|
+|School Holiday|0,0%|
+|Store Type|0,0%|
+|Assortment|0,0%|
+|Promo2|0,0%|
+|Competition Distance|26,0%|
+|Competition Open Since Month|31,8%|
+|Competition Open Since Year|31,8%|
+|Promo 2 Since Week|49,9%|
+|Promo 2 Since Year|49,9%|
+|Promo Interval|49,9%|
+
+
+  - Missing values Assumptions
+    -   Competition Distance:
+    
+        - Assumptions: Stores with no nearby competitors or no competitors
+        - For these cases, I entered a distance of 200 thousand meters in the dataset, indicating to the model that the competitors are externally distant from this store, which would not happen if the option were for zero value.
