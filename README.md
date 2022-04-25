@@ -181,3 +181,6 @@ Error performance evaluation.
 
 Deploy in development on heroku cloud.
 
+# 📋 Conclusion
+
+# 📋 Next Steps
