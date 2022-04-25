@@ -184,3 +184,7 @@ Deploy in development on heroku cloud.
 # 📋 Conclusion
 
 # 📋 Next Steps
+
+   - Report model performance to business team
+   - Report the insights to the business team
+   - Finish the deployment
