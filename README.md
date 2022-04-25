@@ -182,6 +182,11 @@ Error performance evaluation.
 Deploy in development on heroku cloud.
 
 # 📋 Conclusion
+After a complete CRISP-DS cycle, I chose XGBoost Regressor, after analyzing the trade-off between performance and computational cost presented by the tested algorithms.
+
+XGBoost achieved a Mean Absolute Percentage Error (MAPE) of 11%, while the baseline, the traditional average model, achieved a MAPE of 45%. XGBoost also featured a Mean Absolute Error (MAE) of $1,065 ranging from +/- $179
+
+The result of this solution in ML is an increase in reliability and assertiveness in the stores' sales forecast, resulting in a substantial improvement in the working capital management.
 
 # 📋 Next Steps
 
