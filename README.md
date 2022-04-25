@@ -95,9 +95,9 @@ The missing values presented significant percentages in some fields, being neces
 ##### 2.1.2 Descriptive Statistical
 Highlight in the target variable, zero sales and standard deviation indicating a non-linear behavior, probably the linear models will present low performance, and the positive Skew, concentrating sales in smaller values, characteristic behavior of a retailer.
 
-![image](https://user-images.githubusercontent.com/88887546/165001440-c0ce2b80-a197-4b8c-98ce-4625a25f58d4.png)
+![image](https://user-images.githubusercontent.com/88887546/165082019-38ef742e-3473-459c-80fb-75e637cfcf82.png)
 
-![image](https://user-images.githubusercontent.com/88887546/165001413-e14ae1a6-b472-4453-9455-16d64350af89.png)
+![image](https://user-images.githubusercontent.com/88887546/165082374-ca49fdfc-6109-4a4a-849a-46c5ca4821ac.png)
 
 ##### 2.1.3 Feature Engineering
 Created Features: Year | month |  day | week | week-year 
@@ -110,9 +110,9 @@ Excludes the following data for the next steps of CRISP-DM:
 ##### 2.1.5 Exploratory data Analysis
 After Feature Filtering, the target variable has a normal distribution with positive skew and sales behavior as shown in the charts below:
 
-![image](https://user-images.githubusercontent.com/88887546/165001258-ee794716-7947-4ee5-8e4a-6451e2cb0d57.png)
+![image](https://user-images.githubusercontent.com/88887546/165082703-eb136326-3c23-45ed-be9c-545390bbb278.png)
 
-![image](https://user-images.githubusercontent.com/88887546/165001262-62716bf4-e27e-4ab4-8fdd-49d8c05279b3.png)
+![image](https://user-images.githubusercontent.com/88887546/165083242-4861d1ec-bb37-4ac6-bd47-b9203c169459.png)
 
 ### 3.	Data Preparation
   - Rescaling: 
@@ -146,11 +146,21 @@ the following models have been tested
 
 ![image](https://user-images.githubusercontent.com/88887546/165002647-78bfdaa3-6a52-427e-ad77-c6e42228ac10.png)
 
-#### 4.3. Final Model
+#### 4.3. Final Model - Tuned
+
+After analyzing the trade-off between model performance and computational cost, I evaluated that XGBoost Regressor has the best performance to keep up with Deployment.
 
 ![image](https://user-images.githubusercontent.com/88887546/165002685-62aedc04-bb6b-4615-bba5-f158d4dc16b7.png)
 
 ### 5. Evaluation
 
-### 6. 1.2.	Deployment
+  - As Is
+  
+![image](https://user-images.githubusercontent.com/88887546/165081478-69ef8fc3-9c3b-4aea-a691-4c8f43165f6e.png)
+
+  - To Be
+  
+![image](https://user-images.githubusercontent.com/88887546/165081640-d67a044c-ea0e-4a05-aaa7-f1211daef2ea.png)
+
+### 6. Deployment
 
