@@ -1,4 +1,4 @@
-# 🚀 Sales Forecast - Dirk Rossmann GmbH
+# 💲💲💲 Sales Forecast - Dirk Rossmann GmbH 
 <p align="center">
    <img src="http://img.shields.io/static/v1?label=STATUS&message=Deploy%20in%20development%20on%20heroku%20cloud&color=RED&style=for-the-badge"/>
 </p>
@@ -12,12 +12,7 @@ The solution was developed using the Cross Industry Standard Process for Data Mi
 
   ![image](https://user-images.githubusercontent.com/88887546/164997082-a4bc2626-f312-48bb-b4bf-ac6cb37ca667.png)>
 
-## 📋 Methodology
-
-- [Business Understanding](#descrição-do-projeto)
-
-
-### 📋 1. Business Understanding
+### ✅ 1. Business Understanding
 
 Dirk Rossmann GmbH is one of the largest drugstore chains in Europe, present in 7 countries on this continent. Store sales are influenced by many factors, including promotions, competition, school and state holidays, seasonality and location.
 
@@ -27,7 +22,7 @@ As thousands of individual managers make their sales forecasts based on their un
 
 
 Rossmann requires a reliable, actionable and data-driven solution to optimize working capital management.
-### 📋 2.	Data Understanding
+### ✅ 2.	Data Understanding
 In a multidisciplinary team involving the business areas and the data science team, for the first CRISP cycle, it was defined which features best explain Rossmann's sales behavior.
 
 Daily sales per store for the last 31 months were collected, resulting in a dataset with 1,017,209 lines and 18 features, described below:
@@ -127,7 +122,7 @@ After Feature Filtering, the target variable has a normal distribution with posi
 
 ![image](https://user-images.githubusercontent.com/88887546/165083242-4861d1ec-bb37-4ac6-bd47-b9203c169459.png)
 
-### 📋 3.	Data Preparation
+### ✅ 3.	Data Preparation
   - Rescaling: 
 
     - Robust Scaler -> Competition Distance | Competition Time Month
@@ -149,7 +144,7 @@ After Feature Filtering, the target variable has a normal distribution with posi
 
 ![image](https://user-images.githubusercontent.com/88887546/165002314-edc2133e-9a9f-40ec-9c39-c69c3b6cddb3.png)
 
-### 📋 4. Modeling
+### ✅ 4. Modeling
 The following models have been tested
 
 #### 4.1. Single Performance
@@ -167,7 +162,7 @@ After analyzing the trade-off between model performance and computational cost, 
 
 ![image](https://user-images.githubusercontent.com/88887546/165002685-62aedc04-bb6b-4615-bba5-f158d4dc16b7.png)
 
-### 📋 5. Evaluation
+### ✅ 5. Evaluation
 
   - As Is
   
@@ -177,7 +172,7 @@ After analyzing the trade-off between model performance and computational cost, 
   
 ![image](https://user-images.githubusercontent.com/88887546/165081640-d67a044c-ea0e-4a05-aaa7-f1211daef2ea.png)
 
-### 📋 6. Deployment
+### ❗ 6. Deployment
 
 Deploy in development on heroku cloud.
 
