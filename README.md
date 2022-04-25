@@ -115,17 +115,24 @@ After Feature Filtering, the target variable has a normal distribution with posi
 ![image](https://user-images.githubusercontent.com/88887546/165001262-62716bf4-e27e-4ab4-8fdd-49d8c05279b3.png)
 
 ### 3.	Data Preparation
-I applied a Robust Scaler to the outliered features, as I will test linear models that are sensitive to outliers.
+  - Rescaling: 
 
-For the other features Min Max Scaler was applied
+    - Robust Scaler -> Competition Distance | Competition Time Month
+    - Min Max Scaler -> Promo Time Week | Year
+  
+  - Encoding:
+    - one hot encoding -> State Holiday
+    - lablel encoding -> Store Type
+    - ordinal encoding -> Assortment
 
-  - Robust Scaler
-    - Competition Distance
-    - Competition Time Month
+- Nature Transformation:
+    - Sine and cosine transformation for cyclic variables -> Day of Week | Month | Day | Week of Year
 
-  - Min Max Scaler
-    - Promo Time Week
-    - Year
+- Log encoding:
 
+    - I applied a logarithmic transformation in the target variable (sales), due to the high kurtosis, which could generate a bias and overfit the model. With the log encoding, the target variable is closer to a normal distribution.
 
+![image](https://user-images.githubusercontent.com/88887546/165002314-edc2133e-9a9f-40ec-9c39-c69c3b6cddb3.png)
+
+### 4. Modeling
 
