@@ -1,4 +1,7 @@
-# Sales Forecast - Dirk Rossmann GmbH    
+# Sales Forecast - Dirk Rossmann GmbH
+
+![image](https://user-images.githubusercontent.com/88887546/165095094-670c6eb8-0f83-4a6d-89a3-7c0d3d4b14ab.png)
+
 ## Project's Goal
 Develop a Machine Learning solution for forecasting the sales of a drugstore chain with over 1,100 stores
 ## Methodology
