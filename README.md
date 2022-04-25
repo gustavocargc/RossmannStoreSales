@@ -1,4 +1,7 @@
 # Sales Forecast - Dirk Rossmann GmbH
+<p align="center">
+   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
+</p>
 
 ![image](https://user-images.githubusercontent.com/88887546/165095094-670c6eb8-0f83-4a6d-89a3-7c0d3d4b14ab.png)
 
@@ -8,6 +11,10 @@ Develop a Machine Learning solution for forecasting the sales of a drugstore cha
 The solution was developed using the Cross Industry Standard Process for Data Mining (CRISP-DM)
 
   ![image](https://user-images.githubusercontent.com/88887546/164997082-a4bc2626-f312-48bb-b4bf-ac6cb37ca667.png)>
+
+## Methodology
+
+- [Business Understanding](#descrição-do-projeto)
 
 
 ### 1. Business Understanding
