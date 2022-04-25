@@ -12,6 +12,8 @@ The solution was developed using the Cross Industry Standard Process for Data Mi
 
   ![image](https://user-images.githubusercontent.com/88887546/164997082-a4bc2626-f312-48bb-b4bf-ac6cb37ca667.png)>
 
+## Crisp Pipeline Explained ⤵️
+
 ### ✅ 1. Business Understanding
 
 Dirk Rossmann GmbH is one of the largest drugstore chains in Europe, present in 7 countries on this continent. Store sales are influenced by many factors, including promotions, competition, school and state holidays, seasonality and location.
