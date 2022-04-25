@@ -166,11 +166,13 @@ After analyzing the trade-off between model performance and computational cost, 
 
 ### ✅ 5. Evaluation
 
-  - As Is
+Error performance evaluation.
+
+  - As Is - Average Model Error
   
 ![image](https://user-images.githubusercontent.com/88887546/165081478-69ef8fc3-9c3b-4aea-a691-4c8f43165f6e.png)
 
-  - To Be
+  - To Be - XGBoost Regressor Error
   
 ![image](https://user-images.githubusercontent.com/88887546/165081640-d67a044c-ea0e-4a05-aaa7-f1211daef2ea.png)
 
