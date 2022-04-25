@@ -135,4 +135,22 @@ After Feature Filtering, the target variable has a normal distribution with posi
 ![image](https://user-images.githubusercontent.com/88887546/165002314-edc2133e-9a9f-40ec-9c39-c69c3b6cddb3.png)
 
 ### 4. Modeling
+the following models have been tested
+
+#### 4.1. Single Performance
+
+![image](https://user-images.githubusercontent.com/88887546/165002629-088f12da-3966-4e3f-a646-b0989d0078c1.png)
+
+
+#### 4.2. Cross Validaton Performance
+
+![image](https://user-images.githubusercontent.com/88887546/165002647-78bfdaa3-6a52-427e-ad77-c6e42228ac10.png)
+
+#### 4.3. Final Model
+
+![image](https://user-images.githubusercontent.com/88887546/165002685-62aedc04-bb6b-4615-bba5-f158d4dc16b7.png)
+
+### 5. Evaluation
+
+### 6. 1.2.	Deployment
 
