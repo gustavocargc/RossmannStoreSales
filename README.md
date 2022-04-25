@@ -118,15 +118,17 @@ After Feature Filtering, the target variable has a normal distribution with posi
   - Rescaling: 
 
     - Robust Scaler -> Competition Distance | Competition Time Month
+    > for features with significant amount of outliers
     - Min Max Scaler -> Promo Time Week | Year
-  
+
   - Encoding:
-    - one hot encoding -> State Holiday
-    - lablel encoding -> Store Type
-    - ordinal encoding -> Assortment
+    - One Hot Encoding -> State Holiday
+    - lablel Encoding -> Store Type
+    - Ordinal Encoding -> Assortment
 
 - Nature Transformation:
-    - Sine and cosine transformation for cyclic variables -> Day of Week | Month | Day | Week of Year
+    - Sine and cosine transformation -> Day of Week | Month | Day | Week of Year
+    > to maintain the cyclical sense of the variables
 
 - Log encoding:
 
@@ -135,7 +137,7 @@ After Feature Filtering, the target variable has a normal distribution with posi
 ![image](https://user-images.githubusercontent.com/88887546/165002314-edc2133e-9a9f-40ec-9c39-c69c3b6cddb3.png)
 
 ### 4. Modeling
-the following models have been tested
+The following models have been tested
 
 #### 4.1. Single Performance
 
@@ -163,4 +165,6 @@ After analyzing the trade-off between model performance and computational cost, 
 ![image](https://user-images.githubusercontent.com/88887546/165081640-d67a044c-ea0e-4a05-aaa7-f1211daef2ea.png)
 
 ### 6. Deployment
+
+Deploy in development on heroku cloud.
 
