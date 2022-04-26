@@ -203,3 +203,5 @@ The result of this solution in ML is an increase in reliability and assertivenes
    - Finish the deployment
 
 # 📋 Get In Touch
+
+<a href="https://www.linkedin.com/in/gustavocardoso-/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/gustavocardoso-" height="20" width="30" /></a>
