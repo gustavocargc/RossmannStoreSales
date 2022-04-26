@@ -1,4 +1,4 @@
-# 💲💲💲 Sales Forecast - Dirk Rossmann GmbH
+# 💲 Sales Forecast - Dirk Rossmann GmbH
 
 <p align="center">
    <img src="http://img.shields.io/static/v1?label=STATUS&message=Deploy%20in%20development%20on%20heroku%20cloud&color=RED&style=for-the-badge" height="40"/>
