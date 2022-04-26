@@ -1,7 +1,7 @@
 # 💲💲 Sales Forecast - Dirk Rossmann GmbH
 
 <p align="center">
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=Deploy%20in%20development%20on%20heroku%20cloud&color=RED&style=for-the-badge"/>
+   <img src="http://img.shields.io/static/v1?label=STATUS&message=Deploy%20in%20development%20on%20heroku%20cloud&color=RED&style=for-the-badge" height="40"/>
 </p>
 
 ![image](https://user-images.githubusercontent.com/88887546/165095094-670c6eb8-0f83-4a6d-89a3-7c0d3d4b14ab.png)
@@ -204,4 +204,4 @@ The result of this solution in ML is an increase in reliability and assertivenes
 
 # 📋 Get In Touch
 
-<a href="https://www.linkedin.com/in/gustavocardoso-/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/gustavocardoso-" height="20" width="30" /></a>
+<a href="https://www.linkedin.com/in/gustavocardoso-/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/gustavocardoso-" height="30" width="40" /></a>
