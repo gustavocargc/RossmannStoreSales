@@ -1,5 +1,3 @@
-![Viewers](https://gpvc.arturio.dev/aregtech)
-
 # 💲 Sales Forecast - Dirk Rossmann GmbH
 
 <p align="center">
