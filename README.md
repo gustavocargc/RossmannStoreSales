@@ -1,7 +1,7 @@
 # 💲 Sales Forecast - Dirk Rossmann GmbH
 
 <p align="center">
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=Deploy%20in%20development%20on%20heroku%20cloud&color=RED&style=for-the-badge" height="40"/>
+   <img src="http://img.shields.io/static/v1?label=STATUS&message=Deploy%20in%20development%20on%20heroku%20cloud&color=RED&style=for-the-badge" height="35"/>
 </p>
 
 ![image](https://user-images.githubusercontent.com/88887546/165095094-670c6eb8-0f83-4a6d-89a3-7c0d3d4b14ab.png)
