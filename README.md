@@ -19,6 +19,7 @@ Develop a Machine Learning solution for forecasting the sales of a drugstore cha
 <img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original.svg" alt="numpy" width="40" height="40"/> </a> <a href="https://numpy.org/" target="_blank" rel="noreferrer">
 <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> 
 <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> 
+<img src="https://pt.wikipedia.org/wiki/Xgboost#/media/Ficheiro:XGBoost_logo.png" alt="xgboost" width="40" height="40"/> </a> 
 <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://www.heroku.com/" target="_blank" rel="noreferrer">
 <img src="https://github.com/devicons/devicon/blob/master/icons/flask/flask-original.svg" alt="flask" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/en/2.1.x/" target="_blank" rel="noreferrer">
 <img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg" alt="GitHub" width="40" height="40"/> </a> <a href="https://github.com/" target="_blank" rel="noreferrer">
