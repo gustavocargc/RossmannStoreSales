@@ -9,6 +9,8 @@
 ## 📌 Project's Goal
 Develop a Machine Learning solution for forecasting the sales of a drugstore chain with over 1,100 stores
 
+   > Note: This is a project with real business problem, but with unreal data
+
 ## 📌 Languages and Tools
 <p align="left">
 <a href="https://jupyter.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/jupyter/jupyter-original-wordmark.svg" alt="jupyter" width="40" height="40"/> <a href="https://jupyter.org/" target="_blank" rel="noreferrer">
@@ -20,6 +22,7 @@ Develop a Machine Learning solution for forecasting the sales of a drugstore cha
 <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://www.heroku.com/" target="_blank" rel="noreferrer">
 <img src="https://github.com/devicons/devicon/blob/master/icons/flask/flask-original.svg" alt="flask" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/en/2.1.x/" target="_blank" rel="noreferrer">
 <img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg" alt="GitHub" width="40" height="40"/> </a> <a href="https://github.com/" target="_blank" rel="noreferrer">
+<img src="https://github.com/devicons/devicon/blob/master/icons/kaggle/kaggle-original.svg" alt="Kaggle" width="40" height="40"/> </a> <a href="https://www.kaggle.com/" target="_blank" rel="noreferrer">
 </p>
 
 ## 📌 Methodology
