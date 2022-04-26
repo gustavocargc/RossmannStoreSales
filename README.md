@@ -68,7 +68,7 @@ Daily sales per store for the last 31 months were collected, resulting in a data
 #### 2.1 Data Exploration Report
 ##### 2.1.1 Missing Values
 
-The missing values presented significant percentages in some fields, being necessary to apply some assumptions, to recover a large volume of data.
+The missing values presented significant percentages in some fields, being necessary to apply some assumptions, to recover a large amount of data.
 
 | Feature | % Missing Values |
 |---|---|
@@ -118,7 +118,7 @@ The missing values presented significant percentages in some fields, being neces
           - From this feature, I derived the IS PROMO feature, indicating 0 = No Promotion 1 = Promotional Period and the MONTH_MAP, which contains the month the promotion occurs.
 
 ##### 2.1.2 Descriptive Statistical
-Highlight in the target variable, zero sales and standard deviation indicating a non-linear behavior, probably the linear models will present low performance, and the positive Skew, concentrating sales in smaller values, characteristic behavior of a retailer.
+Highlight in the target feature (Sales), sales equal to zero and standard deviation indicating a non-linear behavior, probably the linear models will present low performance, and the positive Skew, concentrating sales in smaller values, characteristic behavior of a retailer.
 
 ![image](https://user-images.githubusercontent.com/88887546/165082019-38ef742e-3473-459c-80fb-75e637cfcf82.png)
 
