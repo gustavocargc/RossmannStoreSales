@@ -1,22 +1,28 @@
-# 💲💲 Sales Forecast - Dirk Rossmann GmbH
+# 💲 Sales Forecast - Dirk Rossmann GmbH
 
 <p align="center">
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=Deploy%20in%20development%20on%20heroku%20cloud&color=RED&style=for-the-badge"/>
+   <img src="http://img.shields.io/static/v1?label=STATUS&message=Deploy%20in%20development%20on%20heroku%20cloud&color=RED&style=for-the-badge" height="35"/>
 </p>
 
 ![image](https://user-images.githubusercontent.com/88887546/165095094-670c6eb8-0f83-4a6d-89a3-7c0d3d4b14ab.png)
 
-## 📋 Project's Goal
+## 📌 Project's Goal
 Develop a Machine Learning solution for forecasting the sales of a drugstore chain with over 1,100 stores
 
-## 📋 Languages and Tools
-<p align="left">  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer">
-<a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> 
+## 📌 Languages and Tools
+<p align="left">
+<a href="https://jupyter.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/jupyter/jupyter-original-wordmark.svg" alt="jupyter" width="40" height="40"/> <a href="https://jupyter.org/" target="_blank" rel="noreferrer">
+<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer">
 <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank" rel="noreferrer">
+<img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original.svg" alt="numpy" width="40" height="40"/> </a> <a href="https://numpy.org/" target="_blank" rel="noreferrer">
+<a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> 
 <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> 
-<img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"></p>
+<img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://www.heroku.com/" target="_blank" rel="noreferrer">
+<img src="https://github.com/devicons/devicon/blob/master/icons/flask/flask-original.svg" alt="flask" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/en/2.1.x/" target="_blank" rel="noreferrer">
+<img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg" alt="GitHub" width="40" height="40"/> </a> <a href="https://github.com/" target="_blank" rel="noreferrer">
+</p>
 
-## 📋 Methodology
+## 📌 Methodology
 The solution was developed using the Cross Industry Standard Process for Data Mining (CRISP-DM)
 
   ![image](https://user-images.githubusercontent.com/88887546/164997082-a4bc2626-f312-48bb-b4bf-ac6cb37ca667.png)>
@@ -62,7 +68,7 @@ Daily sales per store for the last 31 months were collected, resulting in a data
 #### 2.1 Data Exploration Report
 ##### 2.1.1 Missing Values
 
-The missing values presented significant percentages in some fields, being necessary to apply some assumptions, to recover a large volume of data.
+The missing values presented significant percentages in some fields, being necessary to apply some assumptions, to recover a large amount of data.
 
 | Feature | % Missing Values |
 |---|---|
@@ -112,7 +118,7 @@ The missing values presented significant percentages in some fields, being neces
           - From this feature, I derived the IS PROMO feature, indicating 0 = No Promotion 1 = Promotional Period and the MONTH_MAP, which contains the month the promotion occurs.
 
 ##### 2.1.2 Descriptive Statistical
-Highlight in the target variable, zero sales and standard deviation indicating a non-linear behavior, probably the linear models will present low performance, and the positive Skew, concentrating sales in smaller values, characteristic behavior of a retailer.
+Highlight in the target feature (Sales), sales equal to zero and standard deviation indicating a non-linear behavior, probably the linear models will present low performance, and the positive Skew, concentrating sales in smaller values, characteristic behavior of a retailer.
 
 ![image](https://user-images.githubusercontent.com/88887546/165082019-38ef742e-3473-459c-80fb-75e637cfcf82.png)
 
@@ -189,15 +195,20 @@ Error performance evaluation.
 
 Deploy in development on heroku cloud.
 
-# 📋 Conclusion
+# 📌 Conclusion
 After a complete CRISP-DS cycle, I chose XGBoost Regressor, after analyzing the trade-off between performance and computational cost presented by the tested algorithms.
 
 XGBoost achieved a Mean Absolute Percentage Error (MAPE) of 11%, while the baseline, the traditional average model, achieved a MAPE of 45%. XGBoost also featured a Mean Absolute Error (MAE) of $1,065 ranging from +/- $179
 
 The result of this solution in ML is an increase in reliability and assertiveness in the stores' sales forecast, resulting in a substantial improvement in the working capital management.
 
-# 📋 Next Steps
+# 📌 Next Steps
 
    - Report model performance to business team
    - Report the insights to the business team
    - Finish the deployment
+   - If necessary, run a new crisp cycle
+
+# 📌 Get In Touch
+
+<a href="https://www.linkedin.com/in/gustavocardoso-/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/gustavocardoso-" height="30" width="40" /></a>
